@@ -1,13 +1,12 @@
-
-
-from flask import Flask, render_template, request, jsonify
+from dotenv import load_dotenv
 import os
+from flask import Flask, render_template, request, jsonify
+from flask_cors import CORS
 import requests
 from typing import TypedDict, Annotated, List
 from langchain_core.messages import HumanMessage, AIMessage
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_groq import ChatGroq
-from flask_cors import CORS
 from reportlab.lib.pagesizes import letter
 from reportlab.platypus import SimpleDocTemplate, Paragraph, Spacer
 from reportlab.lib.styles import getSampleStyleSheet
@@ -15,8 +14,11 @@ from reportlab.lib.units import inch
 import io
 import base64
 
+# Load environment variables from .env file
+load_dotenv()
+
 app = Flask(__name__, template_folder="../frontend/templates", static_folder="../frontend/static")
-CORS(app, resources={r"/*": {"origins": "*"}})  # Allow all origins for simplicity; adjust for production
+CORS(app, resources={r"/*": {"origins": "*"}})
 
 # Retrieve the Groq API key from environment variable
 GROQ_API_KEY = os.getenv("GROQ_API_KEY")
