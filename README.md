@@ -33,7 +33,9 @@ AI-powered web application that transforms **your dream destinations and interes
 ---
 
 ## High-Level Overview
-The **Travel Itinerary Planner** leverages natural-language generation to craft personalised travel plans. Users specify:
+The **Travel Itinerary Planner** leverages natural-language generation to craft personalised travel plans.
+
+> **Why did we build this?** Planning a trip often involves juggling dozens of browser tabs—from blog posts and Google Maps to restaurant reviews and subway schedules. We wanted a single hub that understands your preferences and instantly assembles a **logically ordered, culturally rich, and time-efficient** itinerary. By fusing a powerful LLM with real-time geo data, our tool acts as your always-on local guide—saving hours of research while uncovering hidden gems you might otherwise miss. Users specify:
 
 * Destination city or region
 * Trip duration (½-day, 1-day, multi-day)
