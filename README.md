@@ -11,6 +11,10 @@
 
 # ✈️ Travel Itinerary Planner
 
+<p align="center">
+  <img src="https://drive.google.com/uc?id=1LBFe4FP5CEsEZwI06s2i2e_2gyVZ06WB" alt="UI Screenshot" width="700" />
+</p>
+
 AI-powered web application that transforms **your dream destinations and interests into a perfectly curated day-by-day itinerary**, complete with optimal timings, maps, local culture tips, and dining recommendations – all within seconds.
 
 > “It’s like having a local travel expert in your pocket.”
@@ -19,7 +23,7 @@ AI-powered web application that transforms **your dream destinations and interes
 
 ## 📜 Table of Contents
 1. [High-Level Overview](#high-level-overview)
-2. [Live Demo](#live-demo)
+2. [Live](#live)
 3. [Architecture](#architecture)
 4. [Key Features](#key-features)
 5. [Technology Stack](#technology-stack)
@@ -54,10 +58,8 @@ A language-model-powered backend (Groq API) analyses the inputs, combines them w
 
 ---
 
-## Live Demo
-<p align="center">
-  <img src="https://raw.githubusercontent.com/your-repo/assets/demo.gif" width="700" alt="Travel Itinerary Planner Demo" />
-</p>
+## Live
+Access the application here: [Travel Itinerary Planner Live](https://travel-planner-ns7552-daee.onrender.com)
 
 ---
 
