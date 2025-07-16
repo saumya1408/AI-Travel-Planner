@@ -62,16 +62,16 @@ A language-model-powered backend (Groq API) analyses the inputs, combines them w
 ## Architecture
 ```mermaid
 graph TD
-  subgraph Browser (Client)
+  subgraph "Browser (Client)"
     UI["Tailwind + AlpineJS<br/>Responsive UI"]
   end
 
-  subgraph Flask API (Backend)
+  subgraph "Flask API (Backend)"
     API["/api/itinerary"]
     SVC["ItineraryService"]
   end
 
-  subgraph External
+  subgraph "External Services"
     LLM["Groq LLM"]
   end
 
