@@ -24,15 +24,16 @@ AI-powered web application that transforms **your dream destinations and interes
 ## 📜 Table of Contents
 1. [High-Level Overview](#high-level-overview)
 2. [Live](#live)
-3. [Architecture](#architecture)
-4. [Key Features](#key-features)
-5. [Technology Stack](#technology-stack)
-6. [Folder Structure](#folder-structure)
-7. [Environment Configuration](#environment-configuration)
-8. [API Contracts](#api-contracts)
-9. [Extensibility Guide](#extensibility-guide)
-10. [Contributing](#contributing)
-11. [License](#license)
+3. [Sample Video](#sample-video)
+4. [Architecture](#architecture)
+5. [Key Features](#key-features)
+6. [Technology Stack](#technology-stack)
+7. [Folder Structure](#folder-structure)
+8. [Environment Configuration](#environment-configuration)
+9. [API Contracts](#api-contracts)
+10. [Extensibility Guide](#extensibility-guide)
+11. [Contributing](#contributing)
+12. [License](#license)
 
 ---
 
@@ -60,6 +61,9 @@ A language-model-powered backend (Groq API) analyses the inputs, combines them w
 
 ## Live
 Access the application here: [Travel Itinerary Planner Live](https://travel-planner-ns7552-daee.onrender.com)
+
+## Sample Video
+Watch a short demo of the itinerary planner in action: <a href="https://drive.google.com/file/d/1HETg6D73frIP4TOGp-rKdZ29E7binOMF/view?usp=sharing" target="_blank">Sample Video</a>
 
 ---
 
